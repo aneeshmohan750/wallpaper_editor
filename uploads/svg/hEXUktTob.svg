@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="800" height="450" viewBox="0 0 800 450" xml:space="preserve">
+<desc>Created with Fabric.js 1.7.3</desc>
+<defs>
+</defs>
+<g transform="translate(400 225)">
+<image xlink:href="http://13.66.226.25/dusupwallpaper/uploads/svg_templates/Guidelines_01/460DDA3B.jpeg" x="-400" y="-225" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" width="800" height="450" Left="0" Top="0" preserveAspectRatio="none"></image>
+</g>
+	<g transform="translate(543.08 159.75)">
+		<text font-family="Arial" font-size="9" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" >
+			<tspan x="-30.5" y="2.83" fill="#FFFFFF">Text goes here</tspan>
+		</text>
+	</g>
+	<g transform="translate(523.75 211.84)">
+		<text font-family="Arial" font-size="9" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" >
+			<tspan x="-12" y="2.83" fill="#FFFFFF">TITLE</tspan>
+		</text>
+	</g>
+	<g transform="translate(536 236.63)">
+		<text font-family="Arial" font-size="9" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" >
+			<tspan x="-23" y="2.83" fill="#FFFFFF">Description</tspan>
+		</text>
+	</g>
+<g transform="translate(586.63 120.79)">
+<image id="msg_xA0_Image" xlink:href="http://13.66.226.25/dusupwallpaper/uploads/svg_templates/Guidelines_01/460DDA39.png" x="-75.375" y="-11.208333333333332" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" width="150.75" height="22.416666666666664" Left="511.25" Top="109.583125" preserveAspectRatio="none"></image>
+</g>
+<g transform="translate(724.52 418.15) scale(0.32 0.31)">
+<image id="logo_xA0_Image" xlink:href="http://13.66.226.25/dusupwallpaper/uploads/svg_templates/Guidelines_01/460DDA3F.png" x="-207.45833333333331" y="-54.333333333333336" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" width="414.91666666666663" height="108.66666666666667" Left="658.7988333333333" Top="401.20075" preserveAspectRatio="none"></image>
+</g>
+</svg>

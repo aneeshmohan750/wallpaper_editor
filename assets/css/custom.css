@@ -1,0 +1,388 @@
+.primaaryLoginbox {
+	position: relative;
+}
+
+#secondaryAuth{
+	left:-100%;
+	position:absolute;	 	
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #F1F4F9;
+	z-index: 10;
+}
+
+#secondaryAuth.show {
+	left: 0;
+}
+
+#secondaryAuth, #secondaryAuth.show {
+ -webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s; 	
+}
+
+.create_btn{padding:15px 0 0 0;}
+
+.panel-body-secondary {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #666;
+    height: 100%;
+    width: 136px;
+}
+
+.panel-body-secondary a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.panelSub {
+    position: relative;
+}
+.panelSub .panel-body {
+    position: relative;
+    overflow: hidden;
+	background:#ece9c2;
+}
+
+.panel-body h2 a{color:#4E5E6A;}
+
+.panel-body h2 a:hover{  
+  text-decoration:none 
+}
+	
+
+.ongoing{
+   background:#ece9c2 !important;	
+}
+
+.pending{   
+   background:#EC92A3 !important;	   	
+}
+
+.waiting{   
+   background:#C2BCEC !important;	  	
+}
+
+.completed{
+   background:#91D488 !important;	
+   	
+}
+.draft{
+   background:#fff !important;	
+   	
+}
+.discard_btn{
+  margin-top: -13px;
+}
+
+
+#popup_box {
+    background: #fff none repeat scroll 0 0;
+    display: none;
+    left: 60%;
+    margin-left: -393px;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    width: 400px;
+    z-index: 1000;
+	border:1px solid #f2f2f2;
+}
+#popup_box_upload {
+    background: #fff none repeat scroll 0 0;
+    display: none;
+    left: 60%;
+    margin-left: -393px;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    width: 400px;
+    z-index: 1000;
+	border:1px solid #f2f2f2;
+}
+
+#popup_box_icons {
+    background: #ccc none repeat scroll 0 0;
+    display: none;
+    left: 60%;
+    margin-left: -393px;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    width: 450px;
+    z-index: 1000;
+	border:1px solid #f2f2f2;
+}
+
+#popup_box_logos {
+    background: #ccc none repeat scroll 0 0;
+    display: none;
+    left: 60%;
+    margin-left: -393px;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    width: 450px;
+    z-index: 1000;
+	border:1px solid #f2f2f2;
+}
+
+.popInner {
+    position: relative;
+}
+a#popupBoxClose {
+    background: rgba(0, 0, 0, 0) url(../images/bgClose.png) no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 39px;
+    top: -40px;
+    position: absolute;
+    right: -5px;
+    width: 41px;
+	
+}
+a#popupBoxCloseUpload {
+    background: rgba(0, 0, 0, 0) url(../images/bgClose.png) no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 39px;
+    top: -40px;
+    position: absolute;
+    right: -5px;
+    width: 41px;
+	
+}
+
+a#popupBoxCloseicon {
+    background: rgba(0, 0, 0, 0) url(../images/bgClose.png) no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 39px;
+    top: -40px;
+    position: absolute;
+    right: -5px;
+    width: 41px;
+	
+}
+.scrollBox{
+  overflow-Y:scroll;
+  height:300px;	
+}
+	
+
+.table_content{
+	height:400px; 
+	overflow-y:scroll
+}
+
+.popInner h2{
+    margin: 0;
+    padding-bottom: 15px;	
+}
+.overlay.show {
+    background: rgba(0, 0, 0, 0) url("../images/bgContentSection.png") repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+#colorSelector {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+}
+#colorSelector div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/select.png) center;
+}
+
+#page-loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #E6E8EC;
+	z-index: 1020
+}
+#page-loader.fade {
+	display: none
+}
+#page-loader.fade.in {
+	display: block
+}
+@-webkit-keyframes rotation {
+from {
+-webkit-transform:rotate(0deg)
+}
+to {
+	-webkit-transform: rotate(359deg)
+}
+}
+@-moz-keyframes rotation {
+from {
+-moz-transform:rotate(0deg)
+}
+to {
+	-moz-transform: rotate(359deg)
+}
+}
+@-o-keyframes rotation {
+from {
+-o-transform:rotate(0deg)
+}
+to {
+	-o-transform: rotate(359deg)
+}
+}
+@keyframes rotation {
+from {
+transform:rotate(0deg)
+}
+to {
+	transform: rotate(359deg)
+}
+}
+.spinner, .spinner-small {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -20px -20px 0 0;
+	border: 2px solid #fff;
+	border-top: 2px solid #24B498;
+	border-radius: 100%
+}
+.fade.in .spinner, .fade.in .spinner-small {
+	-webkit-animation: rotation .6s infinite linear;
+	-moz-animation: rotation .6s infinite linear;
+	-o-animation: rotation .6s infinite linear;
+	animation: rotation .6s infinite linear
+}
+.spinner-small {
+	border: 2px solid rgba(0,0,0,.05);
+	border-top: 2px solid #24B498;
+	height: 30px;
+	width: 30px;
+	margin: -15px -15px 0 0
+}
+	
+.canvasNewContainer {
+	border: 6px solid #dddddd;
+	float: left;
+	position: relative;
+}
+
+.screenlock {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 100;
+}
+
+.screenlock.show {
+	display: block;
+}
+
+.toolArea{
+	display:none;}
+
+.resolutionSet{
+	display:none;}
+	
+.cropTop{
+  position: absolute; 
+  z-index: 99; 
+  width: 100%; 
+  height: 1px; 
+  background: red; 
+  opacity: 1; left: 0; 
+  bottom: 450px;}	
+  
+.cropBottom{
+  position: absolute; 
+  z-index: 99; 
+  width: 100%; 
+  height: 1px; 
+  background: red; 
+  opacity: 1; left: 0; 
+  top: 450px;}
+  
+.cropLeft {
+  position: absolute; 
+  z-index: 99; 
+  width: 1px; 
+  height:100%; 
+  background: red; 
+  opacity: 1; 
+  left: 0; 
+  top: 0;
+  display:none;
+}  
+
+.cropLeft.left120 {
+	left: 50px;
+	display:block;
+}
+
+.cropLeft.left320 {
+	left: 132px;
+	display:block;
+}
+
+.cropLeft.left420 {
+	left: 174px;
+	display:block;
+}
+
+.cropLeft.right120 {
+	left: auto;
+	right: 50px;
+	display:block;
+}
+
+.cropLeft.right320 {
+	left: auto;
+	right: 132px;
+	display:block;
+}
+
+.cropLeft.right420 {
+	left: auto;
+	right: 174px;
+	display:block;
+}
+
+
+.iconBox{
+	margin:17px}
+.iconBox a.active{
+	display: inline-block;
+    border: 2px solid;}  		
+.logoBox{
+	margin:17px}
+.logoBox a.active{
+	display: inline-block;
+    border: 2px solid;}  		
+	
